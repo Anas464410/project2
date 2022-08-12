@@ -1,0 +1,219 @@
+
+#press, #pricing, #footer, #features, #testimonials, #cta {
+  text-align: center;
+}
+
+.title-heading, .testimonial-heading, .navbar-brand, .cta-heading {
+  line-height: 1.5;
+}
+
+/* color-section */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Heading section */
+
+h1,h2,h3 {
+  font-family: "Montserrat"
+}
+
+.title-heading {
+  font-weight: 900;
+  font-size:4rem;
+}
+
+.testimonial-heading {
+  font-size: 3rem;
+}
+
+.feature-heading {
+  font-size: 1.7rem;
+  font-weight: 100;
+}
+
+.container-fluid {
+  padding: 3% 13%;
+}
+
+
+
+
+/* Navbar */
+.navbar-nav {
+  margin-left: 60%;
+}
+.navbar {
+  padding-bottom: 100px;
+}
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-weight: lighter;
+  font-size: 2.5rem;
+}
+.nav-item {
+  margin: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+
+
+
+
+/* Download Button */
+.download-button {
+  margin:3% 5% 3% 0;
+}
+
+
+
+
+/* Dog Image */
+.dog-image {
+  width: 18%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 22%;
+
+}
+
+
+
+
+/* Features */
+.price{
+  color:#000;
+  font-size: 2.5rem;
+}
+
+.paragraph,.info {
+  color: #8f8f8f;
+  font-size:1rem;
+}
+
+.price-1{
+  margin: 5% 0 5% 0;
+}
+
+#features {
+  padding:7% 15%;
+  position: relative;
+}
+
+
+
+
+/* Symbols */
+
+.check-circle, .bullseye, .heart {
+  font-size: 4rem;
+  margin-bottom: 15px;
+  color: #ef8172;
+}
+
+.check-circle:hover, .bullseye:hover, .heart:hover {
+  color: #ff4c68;
+}
+
+
+
+
+/* Testimonials */
+#testimonials {
+  font-family: "Montserrat";
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+
+
+/* Press-logo */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 20px;
+}
+
+.press-logo {
+  margin: 20px;
+  width: 15%;
+}
+
+.col {
+  padding: 20px 20px;
+}
+
+
+
+
+/* pricing section */
+.amount {
+  color: grey;
+  font-size: 2rem;
+}
+
+
+
+
+/* cta */
+
+.last-download-button {
+  margin:0 2% 5% 0;
+}
+
+.cta-heading {
+  font-size: 3.5rem;
+  padding: 7% 15%;
+}
+
+
+
+
+/* footer */
+
+.copyright {
+  font-size: 1.2rem;
+  color: #8f8f8f;
+  padding-bottom: 2%;
+}
+
+.social-media-icons {
+  margin: 5% 0 1% 1%;
+}
+
+
+
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .dog-image {
+    position: static;
+    transform: rotate(0);
+    width:40%;
+  }
+
+  .item1, .item2, .item3 {
+    padding-top: 4%;
+  }
+}
